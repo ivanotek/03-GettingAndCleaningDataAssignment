@@ -27,12 +27,15 @@ The script run_analysis.R downloads the HCI HAR dataset and processes it to achi
 
 
 1. Download the script with:
-```{bash}
+```
+# git clone https://github.com/ivanotek/03-GettingAndCleaningDataAssignment.git assignment
+# cd assignment
+# R
 ```
 
 2. Run it with
-```{r cars}
-source("run_analysis.R")
+```
+> source("run_analysis.R")
 ```
 
 this script gerates the following outputs in R

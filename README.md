@@ -33,12 +33,12 @@ The script run_analysis.R downloads the HCI HAR dataset and processes it to achi
 # R
 ```
 
-2. Run it with
+2. Run it from R with
 ```
 > source("run_analysis.R")
 ```
 
-this script gerates the following outputs in R
+this script generates the following outputs in R
 
 * An in-memory cleaned up dataframe of train and test merged data, named *merged*
 * An in-memory cleaned up pruned dataframe from *merged*, named *pruned*, which contains only mean and standard deviations metrics. 

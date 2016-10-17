@@ -42,13 +42,13 @@ this script generates the following outputs in R
 
 * An in-memory cleaned up dataframe of train and test merged data, named *merged*
 * An in-memory cleaned up pruned dataframe from *merged*, named *pruned*, which contains only mean and standard deviations metrics. 
-* An in-memory tidy dataframe, called *avgsBySubjectActivity*, which contais the means of all metrics contained in *pruned* dataframe (mean/std), grouped by SubjectId and Activity.
+* An in-memory tidy dataframe, called *avgsBySubjectActivity*, which contains the means of all metrics contained in *pruned* dataframe (mean/std), grouped by SubjectId and Activity.
 
 and additionally
 
-* An exported file avgsBySubjectActivity.txt, which contains the result of the *avgsBySubjectActivity* dataframe
+* An exported file **avgsBySubjectActivity.txt**, which contains the result of the *avgsBySubjectActivity* dataframe
 
 ### Code book
 
-The code book file that describes the variables, the data, and all transformations or work performed to clean up the data is called CodeBook.md.
+The code book file that describes the variables, the data, and all transformations or work performed to clean up the data is called **CodeBook.md**.
 

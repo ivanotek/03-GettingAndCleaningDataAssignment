@@ -24,7 +24,7 @@ if(!file.exists(targetDir) ) {
 }
 if(!file.exists("./data/UCI HAR Dataset")) {
     datasetZipFile <-file.path(targetDir, basename(fileURL))
-    download.file(fileUrl,destfile=datasetZipFile)
+    download.file(fileURL,destfile=datasetZipFile)
     # Unzip dataset to target directory
     unzip(zipfile=datasetZipFile,exdir=targetDir)
 }

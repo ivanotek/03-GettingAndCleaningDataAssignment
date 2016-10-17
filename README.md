@@ -42,7 +42,7 @@ this script gerates the following outputs in R
 
 * An in-memory cleaned up dataframe of train and test merged data, named *merged*
 * An in-memory cleaned up pruned dataframe from *merged*, named *pruned*, which contains only mean and standard deviations metrics. 
-* An in-memory cleaned up dataframe, called *avgsBySubjectActivity*, which contais the means of all metrics contained in *pruned* dataframe (mean/std), grouped by SubjectId and Activity.
+* An in-memory tidy dataframe, called *avgsBySubjectActivity*, which contais the means of all metrics contained in *pruned* dataframe (mean/std), grouped by SubjectId and Activity.
 
 and additionally
 
